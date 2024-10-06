@@ -15,15 +15,19 @@ function listEvents() {
 }
 
 // Function to join an event by ID
+// Enhanced joinEvent function to handle more cases
 function joinEvent(eventId) {
     const event = events.find(e => e.id === eventId);
     if (event && !event.joined) {
         event.joined = true;
         console.log(`You have successfully joined ${event.name}`);
+    } else if (event && event.joined) {
+        console.log(`You have already joined ${event.name}`);
     } else {
-        console.log("Event not found or already joined.");
+        console.log("Event not found.");
     }
 }
+
 
 // Example usage
 listEvents();
