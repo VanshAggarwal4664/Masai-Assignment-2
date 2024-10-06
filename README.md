@@ -10,3 +10,5 @@ A simple app where users can list and join events. Features include payment inte
 - Event creation and listing
 - Payment and chat integration
 
+## New Feature: Event Sharing
+- Added the ability to share events with friends via email.
