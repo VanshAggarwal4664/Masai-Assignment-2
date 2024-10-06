@@ -1,2 +1,12 @@
-# Masai-Assignment-2
-this is masai assignment-2 repository to practice github
+# Event Management App
+A simple app where users can list and join events. Features include payment integration and chat functionality.
+
+## Setup
+1. Clone the repo.
+2. Run `npm install`.
+3. Start the server with `npm start`.
+
+## Features
+- Event creation and listing
+- Payment and chat integration
+
